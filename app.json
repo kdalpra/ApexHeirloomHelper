@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Heirloom",
-    "slug": "Heirloom",
-    "version": "1.0.0",
+    "name": "Heirloom Helper",
+    "slug": "HeirloomHelper",
+    "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon2.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon2.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0042ff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,28 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "wildsteelerfan.tk.hh"
     },
     "android": {
+      "package": "wildsteelerfan.tk.hh",
+      "permissions": [],
+      "versionCode": 5,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/icon2.png",
+        "backgroundColor": "#0042ff"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2273073266916535~4485040924"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4e138915-f3b0-408d-a972-e1e141d3b8e4"
+      }
     }
   }
 }
